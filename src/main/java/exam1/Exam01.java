@@ -39,6 +39,8 @@ public class Exam01 {
             return "Fifteen-Thirty";
         }else if(scoreA == 3 && scoreB == 1){
             return "Forty-Fifteen";
+        }else if (scoreA ==1 && scoreB ==3){
+            return "Fifteen-Forty";
         }
         else if (scoreA == 1) {
             return "Fifteen-Love";
