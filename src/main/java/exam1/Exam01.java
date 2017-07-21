@@ -30,6 +30,8 @@ public class Exam01 {
         }
         else if((scoreA >2) && (scoreB > 2) && (scoreA - scoreB >= 2)){
             return "Win for Player A";
+        }else if((scoreA >2) && (scoreB > 2) && (scoreB - scoreA >= 2)){
+            return "Win for Player B";
         }
         if(scoreA - scoreB > 3){
             return "Win for Player A";
