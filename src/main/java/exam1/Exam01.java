@@ -28,10 +28,14 @@ public class Exam01 {
             return "Thirty-All";
         }else if(scoreA > 2 && scoreB >2){
             if(scoreA == scoreB){
-                return "Deuce";}
+                return "Deuce";
+            }
         }
         if(scoreA > 0) {
-            if (scoreA == 1) {
+            if(scoreA ==2 && scoreB == 1){
+                return "Thirty-Fifteen";
+            }
+            else if (scoreA == 1) {
                 return "Fifteen-Love";
             } else if (scoreA == 2) {
                 return "Thirty-Love";
