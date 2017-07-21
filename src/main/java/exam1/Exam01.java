@@ -35,8 +35,10 @@ public class Exam01 {
         if(scoreA == 2 && scoreB == 1){
             return "Thirty-Fifteen";
         }
-        else if(scoreB == 2 && scoreA ==1){
+        else if(scoreA ==1 && scoreB == 2){
             return "Fifteen-Thirty";
+        }else if(scoreA == 3 && scoreB == 1){
+            return "Forty-Fifteen";
         }
         else if (scoreA == 1) {
             return "Fifteen-Love";
