@@ -39,6 +39,8 @@ public class Exam01 {
             return "Love-Thirty";
         }else if(scoreB == 3){
             return "Love-Forty";
+        }else if(scoreB == 4){
+            return "Win for Player B";
         }
 
 
