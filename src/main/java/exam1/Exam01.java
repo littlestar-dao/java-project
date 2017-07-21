@@ -26,8 +26,9 @@ public class Exam01 {
             return "Fifteen-All";
         }else if (scoreA == 2 && scoreB == 2){
             return "Thirty-All";
-        }else if(scoreA == 3 && scoreB == 3){
-            return "Deuce";
+        }else if(scoreA > 2 && scoreB >2){
+            if(scoreA == scoreB){
+                return "Deuce";}
         }
         if(scoreA > 0) {
             if (scoreA == 1) {
