@@ -22,14 +22,17 @@ public class Exam01 {
     }
 
     public String getScore() {
+        if((scoreA >2) && (scoreB > 2) && (scoreA-scoreB ==1)){
+            return "Advantage Player A";
+        }
         if(scoreA - scoreB > 3){
             return "Win for Player A";
         }else if(scoreB == 4 && scoreA ==1){
             return "Win for Player B";
         }else if(scoreB == 4 && scoreA ==2){
             return "Win for Player B";
-        }else if(scoreA ==4 && scoreB == 3){
-            return "Advantage Player A";
+//        }else if(scoreA ==4 && scoreB == 3){
+//            return "Advantage Player A";
         }else if(scoreA == 3 && scoreB ==4){
             return "Advantage Player B";
         }
