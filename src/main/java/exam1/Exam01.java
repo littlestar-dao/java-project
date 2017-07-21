@@ -24,6 +24,8 @@ public class Exam01 {
     public String getScore() {
         if (scoreA == 1){
             return "Fifteen-Love";
+        }else if (scoreA == 2){
+            return "Thirty-Love";
         }
 
 
