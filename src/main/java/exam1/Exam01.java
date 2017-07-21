@@ -31,21 +31,23 @@ public class Exam01 {
                 return "Deuce";
             }
         }
-        if(scoreA > 0) {
-            if(scoreA ==2 && scoreB == 1){
-                return "Thirty-Fifteen";
-            }
-            else if (scoreA == 1) {
-                return "Fifteen-Love";
-            } else if (scoreA == 2) {
-                return "Thirty-Love";
-            } else if (scoreA == 3) {
-                return "Forty-Love";
-            } else if (scoreA == 4) {
-                return "Win for Player A";
-            }
+
+        if(scoreA == 2 && scoreB == 1){
+            return "Thirty-Fifteen";
         }
-        if(scoreB == 1){
+        else if(scoreB == 2 && scoreA ==1){
+            return "Fifteen-Thirty";
+        }
+        else if (scoreA == 1) {
+            return "Fifteen-Love";
+        } else if (scoreA == 2) {
+            return "Thirty-Love";
+        } else if (scoreA == 3) {
+            return "Forty-Love";
+        } else if (scoreA == 4) {
+            return "Win for Player A";
+        }
+        else if(scoreB == 1){
             return "Love-Fifteen";
         }else if(scoreB == 2){
             return "Love-Thirty";
