@@ -35,6 +35,8 @@ public class Exam01 {
         }
         if(scoreB == 1){
             return "Love-Fifteen";
+        }else if(scoreB == 2){
+            return "Love-Thirty";
         }
 
 
