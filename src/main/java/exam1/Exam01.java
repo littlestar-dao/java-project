@@ -26,7 +26,10 @@ public class Exam01 {
             return "Win for Player A";
         }else if(scoreB == 4 && scoreA ==1){
             return "Win for Player B";
+        }else if(scoreB == 4 && scoreA ==2){
+            return "Win for Player B";
         }
+
         else if(scoreA == 1 && scoreB ==1){
             return "Fifteen-All";
         }else if (scoreA == 2 && scoreB == 2){
