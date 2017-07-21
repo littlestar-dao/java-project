@@ -21,7 +21,7 @@ public class Exam01Test {
         assertEquals("Fifteen-Love", actualResult);
     }
 
-    @Test 
+    @Test
     public void player_A_win_2_times_should_Thirty_Love() {
         exam01.playerAWin();
         exam01.playerAWin();
@@ -29,7 +29,7 @@ public class Exam01Test {
         assertEquals("Thirty-Love", actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void player_A_win_3_times_should_Forty_Love() {
         exam01.playerAWin();
         exam01.playerAWin();
