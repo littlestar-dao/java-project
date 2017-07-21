@@ -22,14 +22,19 @@ public class Exam01 {
     }
 
     public String getScore() {
-        if (scoreA == 1){
-            return "Fifteen-Love";
-        }else if (scoreA == 2){
-            return "Thirty-Love";
-        }else if (scoreA == 3){
-            return "Forty-Love";
-        }else if(scoreA == 4){
-            return "Win for Player A";
+        if(scoreA > 0) {
+            if (scoreA == 1) {
+                return "Fifteen-Love";
+            } else if (scoreA == 2) {
+                return "Thirty-Love";
+            } else if (scoreA == 3) {
+                return "Forty-Love";
+            } else if (scoreA == 4) {
+                return "Win for Player A";
+            }
+        }
+        if(scoreB == 1){
+            return "Love-Fifteen";
         }
 
 
