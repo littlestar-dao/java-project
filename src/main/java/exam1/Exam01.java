@@ -28,6 +28,9 @@ public class Exam01 {
         else if((scoreA >2) && (scoreB > 2) && (scoreB-scoreA ==1)){
             return "Advantage Player B";
         }
+        else if((scoreA >2) && (scoreB > 2) && (scoreA - scoreB >= 2)){
+            return "Win for Player A";
+        }
         if(scoreA - scoreB > 3){
             return "Win for Player A";
         }else if(scoreB == 4 && scoreA ==1){
