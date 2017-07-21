@@ -22,6 +22,9 @@ public class Exam01 {
     }
 
     public String getScore() {
+        if(scoreA == 1 && scoreB ==1){
+            return "Fifteen-All";
+        }
         if(scoreA > 0) {
             if (scoreA == 1) {
                 return "Fifteen-Love";
