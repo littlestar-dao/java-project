@@ -28,6 +28,8 @@ public class Exam01 {
             return "Thirty-Love";
         }else if (scoreA == 3){
             return "Forty-Love";
+        }else if(scoreA == 4){
+            return "Win for Player A";
         }
 
 
