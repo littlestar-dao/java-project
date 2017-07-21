@@ -30,6 +30,8 @@ public class Exam01 {
             return "Win for Player B";
         }else if(scoreA ==4 && scoreB == 3){
             return "Advantage Player A";
+        }else if(scoreA == 3 && scoreB ==4){
+            return "Advantage Player B";
         }
 
         else if(scoreA == 1 && scoreB ==1){
