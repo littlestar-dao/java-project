@@ -22,6 +22,9 @@ public class Exam01 {
     }
 
     public String getScore() {
+        if(scoreA - scoreB > 3){
+            return "Win for Player A";
+        }
         if(scoreA == 1 && scoreB ==1){
             return "Fifteen-All";
         }else if (scoreA == 2 && scoreB == 2){
