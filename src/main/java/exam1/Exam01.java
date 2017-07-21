@@ -24,6 +24,8 @@ public class Exam01 {
     public String getScore() {
         if(scoreA == 1 && scoreB ==1){
             return "Fifteen-All";
+        }else if (scoreA == 2 && scoreB == 2){
+            return "Thirty-All";
         }
         if(scoreA > 0) {
             if (scoreA == 1) {
